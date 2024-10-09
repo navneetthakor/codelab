@@ -12,6 +12,7 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     if (condition) {
     // code to be executed if the condition is true
     }
+
     ```
 
     Code:
@@ -29,10 +30,11 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
         return 0;
     }
+
     ```
 
     test cases:
-    - 1st 
+    - 1st (Visible to user)
     ```
     Enter an Integer: 5
     Positive Number
@@ -53,6 +55,64 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     ```
     Enter an Integer: -7
     (no output)
+    ```
+
+2. Quesion:
+    ```
+    Write a C program that checks if a number is even or odd. If even, print "Even Number", otherwise print "Odd Number".
+
+    - syntax of "if-else statement"
+
+    if (condition) {
+        // code to be executed if the condition is true
+    } else {
+        // code to be executed if the condition is false
+    }
+
+    ```
+
+    Code:
+    ```
+    #include <stdio.h>
+
+    int main() {
+        int num;
+        printf("Enter an integer: ");
+        scanf("%d", &num);
+
+        if (num % 2 == 0) {
+            printf("Even Number");
+        } else {
+            printf("Odd Number");
+        }
+
+        return 0;
+    }
+
+    ```
+
+    test cases:
+    - 1st (Visible to user)
+    ```
+    Enter an Integer: 8
+    Even Number
+    ```
+    - 2nd
+    ```
+    Enter an Integer: 36
+    Even Number
+    ```
+
+    - 3rd
+    ```
+    Enter an Integer: 101
+    Odd Number
+    ```
+
+    - 4th
+    ```
+    Enter an Integer: 0
+    Even Number
     ```
 
 
