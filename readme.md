@@ -5,7 +5,9 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
 1. Quesion:
     ```
-    Write a C program that takes an integer input from the user and checks if the number is positive. Print "Positive Number" if the condition is true. (use if statement)
+    Write a C program that takes an integer input from the user and checks if the number is positive. 
+    Print "Positive Number" if the condition is true. 
+    (use if statement)
 
     - syntax of "if statement"
 
@@ -57,7 +59,9 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
 2. Quesion:
     ```
-    Write a C program that checks if a number is even or odd. If even, print "Even Number", otherwise print "Odd Number". (use if-else statement)
+    Write a C program that checks if a number is even or odd. 
+    If even, print "Even Number", otherwise print "Odd Number". 
+    (use if-else statement)
 
     - syntax of "if-else statement"
 
@@ -115,7 +119,9 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
 3. Quesion:
     ```
-    Write a C program that takes a number as input and checks whether it is positive, negative, or zero. Print the appropriate message. (Use if-else ladders)
+    Write a C program that takes a number as input and checks whether it is positive, negative, or zero.
+    Print the appropriate message.
+    (Use if-else ladders)
 
     - syntax of "if-else ladders"
 
@@ -178,7 +184,9 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
 4. Quesion:
     ```
-    Write a C program that takes two integer inputs and checks if both numbers are greater than 10. If true, print "True", otherwise print "False". (used Nested-if statement)
+    Write a C program that takes two integer inputs and checks if both numbers are greater than 10.
+    If true, print "True", otherwise print "False". 
+    (used Nested-if statement)
 
     - syntax of "Nested-if statement"
 
@@ -243,7 +251,10 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
 5. Quesion:
     ```
-    Write a C program that takes an integer (1-7) as input and prints the corresponding day of the week. Use the switch statement. If integer is not in given range then print "Not Valid". First alphabet must be in upparcase and other are in lower case like. Monday. (use swith-case statement)
+    Write a C program that takes an integer (1-7) as input and prints the corresponding day of the week.  
+    If integer is not in given range then print "Not Valid".
+    First alphabet must be in upparcase and other are in lower case like. Monday.
+    (use swith-case statement)
 
 
     - syntax of "Switch-case statement"
