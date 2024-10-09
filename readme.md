@@ -115,4 +115,66 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     Even Number
     ```
 
+2. Quesion:
+    ```
+    Write a C program that takes a number as input and checks whether it is positive, negative, or zero. Print the appropriate message.
+
+    - syntax of "if-else ladders"
+
+    if (condition1) {
+        // code to be executed if condition1 is true
+    } else if (condition2) {
+        // code to be executed if condition2 is true
+    } else {
+        // code to be executed if all conditions are false
+    }
+
+    ```
+
+    Code:
+    ```
+    #include <stdio.h>
+
+    int main() {
+        int num;
+        printf("Enter an integer: ");
+        scanf("%d", &num);
+
+        if (num > 0) {
+            printf("Positive Number");
+        } else if (num < 0) {
+            printf("Negative Number");
+        } else {
+            printf("Zero");
+        }
+
+        return 0;
+    }
+
+    ```
+
+    test cases:
+    - 1st (Visible to user)
+    ```
+    Enter an Integer: 80
+    Positive Number
+    ```
+    - 2nd
+    ```
+    Enter an Integer: 6
+    Positive Number
+    ```
+
+    - 3rd
+    ```
+    Enter an Integer: 101
+    Negative Number
+    ```
+
+    - 4th
+    ```
+    Enter an Integer: 0
+    Zero
+    ```
+
 
