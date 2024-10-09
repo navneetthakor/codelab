@@ -241,3 +241,85 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     ```
 
 
+5. Quesion:
+    ```
+    Write a C program that takes an integer (1-7) as input and prints the corresponding day of the week. Use the switch statement. If integer is not in given range then print "Not Valid". First alphabet must be in upparcase and other are in lower case like. Monday. (use swith-case statement)
+
+
+    - syntax of "Switch-case statement"
+
+    switch (expression) {
+        case value1:
+            // code to be executed if expression == value1
+            break;
+        case value2:
+            // code to be executed if expression == value2
+            break;
+        // other cases...
+        default:
+            // code to be executed if none of the cases match
+    }
+
+
+
+    ```
+
+    Code:
+    ```
+    #include <stdio.h>
+
+    int main() {
+        int day;
+        printf("Enter a number (1-7): ");
+        scanf("%d", &day);
+
+        switch (day) {
+            case 1: printf("Monday");
+                break;
+            case 2: printf("Tuesday");
+                break;
+            case 3: printf("Wednesday");
+                break;
+            case 4: printf("Thursday");
+                break;
+            case 5: printf("Friday");
+                break;
+            case 6: printf("Saturday");
+                break;
+            case 7: printf("Sunday");
+                break;
+            default: printf("Not Valid");
+        }
+
+        return 0;
+    }
+
+
+
+    ```
+
+    test cases:
+    - 1st (Visible to user)
+    ```
+    Enter a number (1-7): 1
+    Monday
+    ```
+    - 2nd
+    ```
+    Enter a number (1-7): 2
+    Tuesday
+    ```
+
+    - 3rd
+    ```
+    Enter a number (1-7): 7
+    Sunday
+    ```
+
+    - 4th
+    ```
+    Enter a number (1-7): 10
+    Not Valid
+    ```
+
+
