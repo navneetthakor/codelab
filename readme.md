@@ -48,13 +48,11 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     - 3rd
     ```
     Enter an Integer: 0
-    (no output)
     ```
 
     - 4th
     ```
     Enter an Integer: -7
-    (no output)
     ```
 
 2. Quesion:
@@ -115,7 +113,7 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
     Even Number
     ```
 
-2. Quesion:
+3. Quesion:
     ```
     Write a C program that takes a number as input and checks whether it is positive, negative, or zero. Print the appropriate message.
 
@@ -167,7 +165,7 @@ Codelab is initiative taken by our prof. Mohsin Hasan sir.
 
     - 3rd
     ```
-    Enter an Integer: 101
+    Enter an Integer: -101
     Negative Number
     ```
 
